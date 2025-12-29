@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Style Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">Spotify</h2>
+
+        <nav class="menu">
+            <a class="active">🏠 Home</a>
+            <a>🔍 Search</a>
+            <a>📚 Library</a>
+            <a>❤️ Liked Songs</a>
+        </nav>
+
+        
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+        <h1>Good Morning 🎶</h1>
+
+        <!-- Featured Playlists -->
+        <section>
+            <h2 class="section-title">Your Playlists</h2>
+            <div class="cards">
+                <div class="card liked">
+                    <span class="play-btn">▶</span>
+                    <h3>Liked Songs</h3>
+                    <p>50 tracks</p>
+                </div>
+                <div class="card hits">
+                    <span class="play-btn">▶</span>
+                    <h3>Top Hits</h3>
+                    <p>Weekly update</p>
+                </div>
+                <div class="card chill">
+                    <span class="play-btn">▶</span>
+                    <h3>Chill Vibes</h3>
+                    <p>Relax & enjoy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommended Songs -->
+       <section>
+            <h2 class="section-title">Recommended</h2>
+             <div class="song-row">
+    <img class="mini-album" src="blinding lights.jpg" alt="Blinding Lights by The Weeknd">
+    <div class="song-text">
+        <h4>Blinding Lights</h4>
+        <p>The Weeknd</p>
+    </div>
+    <span>3:20</span>
+</div>
+                <div class="song-row">
+                     <img class="mini-album" src="shape of you.jpg" alt="shape of you by Ed Sheeran">
+                   
+                    <div class="song-text">
+                        <h4>Shape of You</h4>
+                        <p>Ed Sheeran</p>
+                    </div>
+                    <span>4:02</span>
+                </div>
+                <div class="song-row">
+                    <img class="mini-album" src="let me.jpg" alt="Let Me Down Slowly by Alec Benjamin">
+                    <div class="song-text">
+                        <h4>Let Me Down Slowly</h4>
+                        <p>Alec Benjamin</p>
+                    </div>
+                    <span>3:15</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</div>
+
+<!-- Bottom Player -->
+<footer class="player">
+    <div class="current-song">
+       <img class="mini-album" src="blinding lights.jpg" alt="Blinding Lights by The Weeknd">
+        <div>
+            <h4>Blinding Lights</h4>
+            <p>The Weeknd</p>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button>⏮</button>
+        <button class="play-main">▶</button>
+        <button>⏭</button>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <div class="volume">
+        🔊
+        <div class="vol-bar">
+            <div class="vol"></div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
